@@ -1,0 +1,31 @@
+
+{
+    "name": "symfony-cmf/api-slugifier",
+    "description": "Interface for slugifier implementations",
+    "keywords": ["slugifier"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Symfony CMF Community",
+            "homepage": "http://cmf.symfony.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Symfony\\Cmf\\Api\\Slugifier\\": "lib/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Symfony\\Cmf\\Api\\Slugifier\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
